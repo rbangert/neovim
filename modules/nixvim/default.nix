@@ -43,24 +43,6 @@ with lib.rr-sv; {
     keymaps = [
       {
         mode = "n";
-        key = "<leader>ch";
-        action = "<cmd>noh<cr>";
-        options = {
-          silent = true;
-          desc = "Clear highlight";
-        };
-      }
-      {
-        mode = "n";
-        key = "<leader>cs";
-        action = ''<cmd>let @/=""<cr>'';
-        options = {
-          silent = true;
-          desc = "Clear search";
-        };
-      }
-      {
-        mode = "n";
         key = "<leader>bd";
         action = "<cmd>:BD<cr>";
         options = {

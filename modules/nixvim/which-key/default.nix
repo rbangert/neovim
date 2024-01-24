@@ -1,11 +1,8 @@
 {...}: {
-  plugins = {
-    which-key = {
-      enable = true;
-
-      window = {
-        winblend = 10;
-      };
+  plugins.which-key = {
+    enable = true;
+    window = {
+      winblend = 10;
     };
   };
 }
