@@ -1,8 +1,6 @@
-{ lib, ... }:
-let
-  theme = lib.plusultra.theme.nord;
-in
-{
+{lib, ...}: let
+  theme = lib.rr-sv.theme.nord;
+in {
   highlight = {
     RainbowDelimiterBlue.fg = theme.nord7;
     RainbowDelimiterOrange.fg = theme.nord12;

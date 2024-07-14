@@ -1,8 +1,10 @@
-{ helpers, lib, ... }:
-let
-  theme = lib.plusultra.theme.nord;
-in
 {
+  helpers,
+  lib,
+  ...
+}: let
+  theme = lib.rr-sv.theme.nord;
+in {
   plugins.lualine = {
     enable = true;
 
@@ -130,9 +132,9 @@ in
           name = "branch";
           icon = "";
         }
-        { name = "diff"; }
+        {name = "diff";}
       ];
-      lualine_c = [ "" ];
+      lualine_c = [""];
       lualine_x = [
         {
           name = "diagnostics";
@@ -141,9 +143,9 @@ in
           };
         }
       ];
-      lualine_y = [ "" ];
+      lualine_y = [""];
       lualine_z = [
-        { name = "%l:%c"; }
+        {name = "%l:%c";}
         {
           name = "fileformat";
           extraConfig = {
@@ -154,8 +156,8 @@ in
     };
 
     tabline = {
-      lualine_a = [ "" ];
-      lualine_b = [ "" ];
+      lualine_a = [""];
+      lualine_b = [""];
       lualine_c = [
         {
           name = "windows";
@@ -184,8 +186,8 @@ in
           };
         }
       ];
-      lualine_x = [ "" ];
-      lualine_y = [ "" ];
+      lualine_x = [""];
+      lualine_y = [""];
       lualine_z = [
         {
           name = "tabs";
@@ -210,8 +212,8 @@ in
     };
 
     winbar = {
-      lualine_a = [ "" ];
-      lualine_b = [ "" ];
+      lualine_a = [""];
+      lualine_b = [""];
       lualine_c = [
         ""
         {
@@ -225,8 +227,8 @@ in
           };
         }
       ];
-      lualine_x = [ "" ];
-      lualine_y = [ "" ];
+      lualine_x = [""];
+      lualine_y = [""];
       lualine_z = [
         {
           name = "filetype";
@@ -268,11 +270,11 @@ in
     };
 
     inactiveWinbar = {
-      lualine_a = [ "" ];
-      lualine_b = [ "" ];
-      lualine_c = [ "" ];
-      lualine_x = [ "" ];
-      lualine_y = [ "" ];
+      lualine_a = [""];
+      lualine_b = [""];
+      lualine_c = [""];
+      lualine_x = [""];
+      lualine_y = [""];
       lualine_z = [
         {
           name = "filetype";

@@ -10,7 +10,7 @@
     keymaps = [
       {
         action = "left";
-        key = "<m-h>";
+        key = "<C-h>";
         options = {
           silent = true;
           desc = "Navigate left";
@@ -18,7 +18,7 @@
       }
       {
         action = "down";
-        key = "<m-j>";
+        key = "<C-j>";
         options = {
           silent = true;
           desc = "Navigate down";
@@ -26,7 +26,7 @@
       }
       {
         action = "up";
-        key = "<m-k>";
+        key = "<C-k>";
         options = {
           silent = true;
           desc = "Navigate up";
@@ -34,7 +34,7 @@
       }
       {
         action = "right";
-        key = "<m-l>";
+        key = "<C-l>";
         options = {
           silent = true;
           desc = "Navigate right";
